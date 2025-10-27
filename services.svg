@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="300" width="180" backgroundColor="white">
+  <text stroke="red" x="84" y="14" stroke-width="0.3">Services</text>
+  <line x1="0" y1="16" x2="280" y2="16" stroke="purple" stroke-width="3"></line>
+</svg>

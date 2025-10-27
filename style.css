@@ -1,0 +1,136 @@
+body {
+    font-size: 15pt;
+    background-color: black;
+    background-size: cover;
+    margin: 0;
+}
+#business-heading{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+#menu-btn{
+    color: white;
+    width: 15%;
+    height: 8vh;
+    margin: 3px;
+    background-size: contain;
+    background-image: url("menu.svg");
+    background-color: black;
+    border: 2px solid transparent;
+}
+#business-heading b{
+    color: red;
+    font-size: 32px;
+    font-weight: 1000;
+    font-weight: lighter;
+    font-kerning: 200px;
+    font-stretch: expanded;
+    font-synthesis: style;
+    text-shadow: 2px 2px grey;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+#contents{
+    height: 84vh;
+    width: 100%;
+    background-color: black;
+    background-size: contain;
+    overflow-y: auto;
+    background-image: url("contents.svg");
+}
+#home{
+    background-image: url("body-text.svg");
+    background-size: contain;
+    height: 84vh;
+    width: 100%;
+}
+#home .bone{
+    align-items: center;
+    text-align: center;
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+    top: 30px;
+    position: relative;
+}
+#home .btwo{
+    align-items: center;
+    text-align: center;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+    top: 40px;
+    position: relative;
+}
+#copyright{
+    width: 100%;
+    height: 6vh;
+    background: linear-gradient(220deg,white,grey);
+    text-align: center;
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+#copyright a{
+    color: red;
+}
+#menu{
+    height: auto;
+    width: 60%;
+    min-height: 40vh;
+    background: linear-gradient(220deg,white,grey,black);
+    position: absolute;
+    border-radius: 0 0 30px 0;
+    top: 10vh;
+}
+.non-active{
+    display: none;
+}
+#menu b{
+    color: black;
+    margin-top: 5px;
+}
+#menu .bsname{
+    font-weight: lighter;
+    color: red;
+    text-shadow: 2px 2px grey;
+    margin: 5px;
+}
+#menu a button{
+    width: 95%;
+    height: 5vh;
+    margin-top: 15px;
+    background: linear-gradient(220deg,grey,black);
+    color: white;
+    border: 3px solid transparent;
+}
+#menu a button:hover{
+    background: linear-gradient(220deg,black,grey)
+}
+.cpr{
+    border-radius: 0 0 30px 0;
+    margin-top: 10px;
+}
+#product,#services,#contact{
+    width: 100%;
+    height: 84vh;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#product{
+    background-size: contain;
+    background-image: url("product.svg");
+}
+#services{
+    background-size: contain;
+    background-image: url("services.svg");
+}
+#contact{
+    background-size: contain;
+    background-image: url("contact.svg");
+}
